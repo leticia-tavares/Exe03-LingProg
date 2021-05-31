@@ -1,0 +1,45 @@
+Universidade Federal do Rio de Janeiro
+Escola Politecnica
+Departamento de Eletronica e de Computacao
+EEL670 - Linguagens de Programação
+Prof. Miguel
+Aluna: Leticia Tavares
+
+					Exercício Avaliado 3 
+
+-------------------------------------------------------------------------------------------------------------------
+	
+	O programa é compilado a partir do Makefile e seu comando make, que cria o executável 'gerenciadorFilmes'. 
+Após seu uso, é possível rodar o comando make clean, para limpar os arquivos *.o e o executável. 
+O arquivo de Makefile foi desenvolvido da forma como foi ensinado na disciplina de Computação II.
+
+	Também pode ser compilado seguinte da forma:
+g++ -Wall main.cpp catalogo.cpp filme.cpp  -o gerenciadorFilmes
+
+------------------------------------------------------------------------------------------------------------------
+
+- Implementação/Funcionamento do programa 
+
+	O programa possui uma classe Catalogo que implementa e gerencia uma base de dados de filmes. Esta classe
+possui um vector para armazenamento dos filmes e uma capacidade máxima de armazenamento igual a 5. 
+Além da classe Catalogo, o programa possui uma struct Filme referente a criação e gerenciamento dos filmes. 
+A struct possui duas strings, uma para o nome do filme e outra para o nome da produtora, e um double para
+a nota do filme.
+	O programa possui como interação com o usuário a escolha de exibição de itens do menu,
+além de toda capacidade de adiconar, remover, buscar e editar filmes no catálogo. O resultado
+da interação é salvo no arquivo texto "catalogo.txt".
+	Vale ressaltar que o programa faz uso de várias funções com operadores sobrecarregados.
+
+-------------------------------------------------------------------------------------------------------------
+
+- Arquivo filme.cpp: implementação da struct filme e seus operadores sobrecarregados 
+
+------------------------------------------------------------------------------------------------------------------
+
+- Arquivo catalogo.cpp: implementação da classe Catalogo, suas funções e eseus operadores sobrecarregados
+
+-------------------------------------------------------------------------------------------------------------------
+
+-Arquivo main.cpp: programa principal, responsável por instanciar a classe Catalogo e rodar o menu.
+
+-------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,20 @@
+Nome: Largados
+Produtora: Discovery
+Nota: 3
+
+Nome: Malik
+Produtora: Mina
+Nota: 6
+
+Nome: Mel
+Produtora: Babi
+Nota: 8
+
+Nome: Pelados
+Produtora: Discovery2
+Nota: 5
+
+Nome: lili
+Produtora: lolo
+Nota: 0
+
